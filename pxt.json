@@ -4,9 +4,8 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*",
-        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
+        "bluetooth": "*"
     },
     "files": [
         "README.md",
@@ -18,7 +17,7 @@
     ],
     "public": true,
     "targetVersions": {
-        "target": "6.0.16",
+        "target": "6.0.17",
         "targetId": "microbit"
     },
     "supportedTargets": [
