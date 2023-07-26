@@ -1,27 +1,28 @@
 {
-    "name": "pxt-ptkidsbit-robot-bluetooth",
-    "version": "0.0.0",
+    "name": "pxt-PTKidsBIT-Robot",
+    "version": "1.5.7",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "ws2812b": "github:microsoft/pxt-ws2812b#v0.1.2"
     },
     "files": [
         "README.md",
-        "main.blocks",
-        "main.ts"
+        "PTKidsBITRobot.ts",
+        "main.py"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": true,
     "targetVersions": {
-        "target": "6.0.17",
+        "target": "6.0.16",
         "targetId": "microbit"
     },
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
